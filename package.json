@@ -1,0 +1,41 @@
+{
+  "name": "library-starterkit",
+  "version": "0.0.1",
+  "description": "boilerplate for es6 authoring, es5 output npm library/package",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "",
+    "test:watch": ""
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "jest": "^21.1.0",
+    "webpack": "^3.5.6",
+    "yargs": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkm2000/library-starterkit.git"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "library",
+    "npm",
+  ],
+  "author": "luo yiming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkm2000/library-starterkit/issues"
+  },
+  "homepage": "https://github.com/xkm2000/library-starterkit"
+}
